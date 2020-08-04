@@ -1,0 +1,13 @@
+App\Entity\Stay:
+  centre_de_vacances_club_les_pieds_dans_leau:
+    title : les pieds dans l'eau 
+    destination: "@maldives"
+    place: "Fuvammulah"
+    departPrice: "1000€"
+    isWithTransport: true
+    countPeople: 2 
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Des vacances de rêves idéales pour un couple"
+    textDescription: "lorem ipsum..."
+# faire pareil pour les autres séjours 

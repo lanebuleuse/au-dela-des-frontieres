@@ -1,0 +1,23 @@
+App\Entity\Continent:
+    afrique:
+      name: Afrique
+      color: "#F0F"
+    amerique_du_nord:
+      name: Amérique du Nord
+      color: "blue"  
+    amerique_du_sud:
+      name: Amérique du Sud
+      color: "yellow"
+    europe:
+      name: Europe
+      color: "Green"
+    asie:
+      name: Asie
+      color: "red"
+    oceanie:
+      name: Océanie
+      color: "purple"
+    antarctique:
+      name: Antarctique
+      color: "white"
+    

@@ -1,0 +1,77 @@
+App\Entity\Destination:
+  chine:
+    name: Chine
+    continent: "@asie"
+  japon:
+    name: Japon
+    continent: "@asie"
+  thailande:
+    name: Thailande
+    continent: "@asie"
+  maldives:
+    name: Maldives
+    continent: "@asie"
+  etats-unis:
+    name: Etats-Unis
+    continent: "@amerique_du_nord"
+  canada:
+    name: Canada
+    continent: "@amerique_du_nord"
+  espagne:
+    name: Espagne
+    continent: "@europe"
+  italie:
+    name: Italie
+    continent: "@europe"
+  grece:
+    name: Grèce
+    continent: "@europe"
+  portugal:
+    name: Portugal
+    continent: "@europe"
+  pays-bas:
+    name: Pays-Bas
+    continent: "@europe"
+  corse:
+    name: Corse
+    continent: "@europe"
+  polynesie française:
+    name : "Polynésie Française"
+    continent: "@europe"
+  emirats-arabes-unis:
+    name: Emirats-Arabes-Unis
+    continent: "@afrique"
+  maroc:
+    name: Maroc
+    continent: "@afrique"
+  tunisie:
+    name: Tunisie
+    continent: "@afrique"
+  egypte:
+    name: Egypte
+    continent: "@afrique"
+  ile_maurice:
+    name: Ile Maurice
+    continent: "@afrique"
+  jordanie:
+    name: Jordanie
+    continent: "@afrique"
+  republique_dominicaine:
+    name: République Dominicaine
+    continent: "@amerique_du_sud"
+  chili:
+    name: Chili
+    continent: "@amerique_du_sud"
+  mexique:
+    name: Mexique
+    continent: "@amerique_du_sud"
+  argetine:
+    name: Argentine
+    continent: "@amerique_du_sud"
+  
+    
+
+
+
+  
+
