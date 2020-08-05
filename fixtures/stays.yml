@@ -10,4 +10,344 @@ App\Entity\Stay:
     typeRoom: "chambre double"
     titleDescription: "Des vacances de rêves idéales pour un couple"
     textDescription: "lorem ipsum..."
-# faire pareil pour les autres séjours 
+  centre_de_vacances_la_palmeraie:
+    title : La Palmeraie
+    destination: "@maroc"
+    place: "Marrakech"
+    departPrice: "500€"
+    isWithTransport: false
+    countPeople: 2 
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Des vacances dépaysantes sous le soleil maghrébin"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_club_med_djerba:
+    title : Club Med Djerba
+    destination: "@tunisie"
+    place: "Djerba"
+    departPrice: "650€"
+    isWithTransport: false
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Venez découvrir l'aventure tunisienne"
+    textDescription: "lorem ipsum..."
+  hotel_le_meridien_gizeh:
+    title : Hôtel le Méridien Gizeh
+    destination: "@egypte"
+    place: "Gizeh"
+    departPrice: "850€"
+    isWithTransport: false
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Vue imprennable sur les pyramides de Gizeh de votre chambre"
+    textDescription: "lorem ipsum..."
+  hotel_san_pelegrinno:
+    title : Hôtel San Pelegrinno
+    destination: "@corse"
+    place: "Folleli"
+    departPrice: "700€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel avec bungalow et plage privative"
+    textDescription: "lorem ipsum..."
+  hotel_carlton:
+    title : Hôtel Carlton
+    destination: "@italie"
+    place: "Trévisse"
+    departPrice: "200€"
+    isWithTransport: false
+    countPeople: 2
+    countOvernightStay: 2
+    typeRoom: "chambre double"
+    titleDescription: "Trévisse proche de Venise, est une ville qui plaira aux amoureux"
+    textDescription: "lorem ipsum..."
+  hotel_vergina:
+    title : Hôtel Vergina
+    destination: "@grece"
+    place: "Thessalonique"
+    departPrice: "150€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 3
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel situé proche des attractions touristiques"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_marmara_malaga:
+    title : Centre de vacances Marmara Malaga
+    destination: "@espagne"
+    place: "Malaga"
+    departPrice: "300€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Centre qui propose de belles excursions"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_placa_del_sol:
+    title : Centre de vacances Plaça del Sol
+    destination: "@portugal"
+    place: "Lisbonne"
+    departPrice: "150€"
+    isWithTransport: false
+    countPeople: 2
+    countOvernightStay: 3
+    typeRoom: "chambre double"
+    titleDescription: "Très belle ville à découvrir"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_mexico:
+    title : Centre de vacances Mexico
+    destination: "@mexique"
+    place: "Mexico"
+    departPrice: "950€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "Centre qui propose de belles excursions au pays des incas"
+    textDescription: "lorem ipsum..."
+  hotel_broadway:
+    title : Hôtel Brooklyn
+    destination: "@etats-unis"
+    place: "New York"
+    departPrice: "1200€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "Très bel hôtel luxueux situé au coeur de New York"
+    textDescription: "lorem ipsum..."
+  hotel_manhattan:
+    title : Hôtel Brooklyn
+    destination: "@etats-unis"
+    place: "New York"
+    departPrice: "1200€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 12
+    typeRoom: "chambre double"
+    titleDescription: "Très bel hôtel et bien situé pour visiter New York"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_Canada_premium:
+    title : Centre de vacances Canada Premium
+    destination: "@canada"
+    place: "Montréal"
+    departPrice: "1200€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 14
+    typeRoom: "chambre double"
+    titleDescription: "Profitez de vos vacances au coeur de la fôret canadienne"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_el_caramba:
+    title : Centre de vacances El Caramba
+    destination: "@mexique"
+    place: "Mexico"
+    departPrice: "1400€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 14
+    typeRoom: "chambre double"
+    titleDescription: "Centre qui propose des excusions à couper le souffle !"
+    textDescription: "lorem ipsum..."
+  hotel_chinatown:
+    title : Hôtel Chinatown
+    destination: "@etats-unis"
+    place: "New York"
+    departPrice: "900€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel typique situé au coeur du quartier Chinatown de New York"
+    textDescription: "lorem ipsum..."
+  hotel_Mauricius:
+    title : Hôtel Mauricius
+    destination: "@ile_maurice"
+    place: "Maurice"
+    departPrice: "1100€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Paysage paradisiaque"
+    textDescription: "lorem ipsum..."
+  hotel_jordania:
+    title : Hôtel Jordiana
+    destination: "@jordanie"
+    place: "Petra"
+    departPrice: "800€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Très bel hôtel qui propose des excusions sur le site de Petra à leurx clients"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_club_med_punta_cana:
+    title : Centre de vacances Club Med Punta Cana
+    destination: "@republique_dominicaine"
+    place: "Punta Cana"
+    departPrice: "1300€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel luxueux, excusions et prestations de marque, idéal pour les voyages de noces"
+    textDescription: "lorem ipsum..."
+  hotel_Argentina:
+    title : Hôtel Argentina
+    destination: "@argentine"
+    place: "Buenos Aires"
+    departPrice: "1000€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "hôtel avec guide touristique multilingue à la demande"
+    textDescription: "lorem ipsum..."
+  centre_de_vacances_polynesia:
+    title : Centre de vacances le Polynésia
+    destination: "@polynesie_française"
+    place: "Bora Bora"
+    departPrice: "1300€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Pour une lune de miel à couper le souffle"
+    textDescription: "lorem ipsum..."
+  hotel_les_creoles_et_spa:
+    title : Hôtel les Créoles & spa
+    destination: "@maldives"
+    place: "l'Ermitage"
+    departPrice: "1200€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "Piscine et spa, restauration,massages... tout est compris dans le prix!"
+    textDescription: "lorem ipsum..."
+  hotel_the_racha:
+    title : Hôtel The Racha
+    destination: "@thailande"
+    place: "Phuket"
+    departPrice: "800€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Piscine et spa, restauration,massages... tout est compris dans le prix!"
+    textDescription: "lorem ipsum..."
+  hotel_phuket-marriott-resort_et_spa_merlin_beach:
+    title : Phuket Marriott Resort & Spa, Merlin Beach
+    destination: "@thailande"
+    place: "Phuket"
+    departPrice: "1000€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 14
+    typeRoom: "chambre double"
+    titleDescription: "Venez passer des vacances incroyables avec de belles excursions!"
+    textDescription: "lorem ipsum..."
+  mandarin_oriental_pudong_shanghai: 
+    title : Mandarin Oriental Pudong, Shanghai
+    destination: "@chine"
+    place: "Shanghai"
+    departPrice: "1200€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "Au coeur de la ville traditionelle chinoise"
+    textDescription: "lorem ipsum..."
+  kerry_hotel_hong_kong:
+    title: Kerry Hotel Hong Kong
+    destination: "@chine"
+    place: "Hong Kong"
+    departPrice: "900€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel Fabuleux!"
+    textDescription: "lorem ipsum..."
+  new_world_beijing_hotel:
+    title: New World Beijing Hotel
+    destination: "@chine"
+    place: "Pékin"
+    departPrice: "850€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel Luxueux, accueil chaleureux!"
+    textDescription: "lorem ipsum..."
+  sotetsu_fresa_inn_tokyo_kanda:
+    title: Sotetsu Fresa Inn Tokyo Kanda
+    destination: "@japon"
+    place: "Tokyo"
+    departPrice: "1400€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 10
+    typeRoom: "chambre double"
+    titleDescription: "Fabuleux!"
+    textDescription: "lorem ipsum..."
+  hotel_vischio_kyoto:
+    title: Hotel Vischio Kyoto 
+    destination: "@japon"
+    place: "Tokyo"
+    departPrice: "1400€"
+    isWithTransport: true
+    countPeople: 4
+    countOvernightStay: 12
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel spacieux et idéal pour la famille"
+    textDescription: "lorem ipsum..."
+  senagajima_island_resort_spa:
+    title : Senagajima Island Resort & Spa
+    destination: "@japon"
+    place: "Tokyo"
+    departPrice: "1600€"
+    isWithTransport: true
+    countPeople: 4
+    countOvernightStay: 12
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel spacieux et idéal pour être tranquille"
+    textDescription: "lorem ipsum..."
+  hotel_atlantis_the_palm:
+    title: Hôtel Atlantis The Palm 
+    destination: "@emirats-arabes-unis"
+    place: "Dubai"
+    departPrice: "1300€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel spacieux et luxueux"
+    textDescription: "lorem ipsum..."
+  the_ritz_carlton_dubai:
+    title: The Ritz-Carlton Dubai
+    destination: "@emirats-arabes-unis"
+    place: "Dubai"
+    departPrice: "1200€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel grand luxe pour passer des vacances inoubliables"
+    textDescription: "lorem ipsum..."
+  grand_hyatt_abu_dhabi_hotel_restaurant_emirates_pearl:
+    title: Grand Hyatt Abu Dhabi Hotel & Residences Emirates Pearl
+    destination: "@emirats-arabes-unis"
+    place: "Dubai"
+    departPrice: "1400€"
+    isWithTransport: true
+    countPeople: 2
+    countOvernightStay: 7
+    typeRoom: "chambre double"
+    titleDescription: "Hôtel grand luxe pour passer des vacances inoubliables"
+    textDescription: "lorem ipsum..."

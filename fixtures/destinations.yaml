@@ -35,7 +35,7 @@ App\Entity\Destination:
   corse:
     name: Corse
     continent: "@europe"
-  polynesie française:
+  polynesie_française:
     name : "Polynésie Française"
     continent: "@europe"
   emirats-arabes-unis:
@@ -65,7 +65,7 @@ App\Entity\Destination:
   mexique:
     name: Mexique
     continent: "@amerique_du_sud"
-  argetine:
+  argentine:
     name: Argentine
     continent: "@amerique_du_sud"
   
