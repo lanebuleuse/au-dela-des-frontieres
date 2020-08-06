@@ -1,0 +1,62 @@
+// customize some Bootstrap variables
+$primary: darken(#428bca, 20%);
+
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 3.5rem;
+}
+
+footer li {
+    display: inline;
+}
+
+.jumbotron.jumbotron-home {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    background-image: url(https://placekitten.com/900/300);
+    color: white;
+    height: 300px;
+}
+
+.search-home {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-continent {
+    height: 200px;
+    overflow: auto;
+}
+
+.card-continent .card-body {
+    transition: all 0.25s ease-out;
+}
+
+.card-continent:hover .card-body {
+    padding-top: 20px;
+}
+
+.card-continent:hover .card-body ul {
+    opacity: 1;
+}
+
+.card-continent ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.card-continent .card-body {
+    padding-top: 80px;
+}
+
+
+.card-continent .card-body ul {
+    opacity: 0;
+}
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
