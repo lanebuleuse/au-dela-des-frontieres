@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<main role="main">
+
+  <section class="jumbotron text-center jumbotron-home">
+    <div class="container">
+      <h1>Evadez vous ! </h1>
+    </div>
+  </section>
+  <section class="search-home">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control form-control-lg" placeholder="Destination..." />
+        </div>
+        <div class="col">
+          <select class="form-control form-control-lg">
+            <option hidden>Ville de départ</option>
+            <option value="paris">Paris</option>
+            <option value="paris">Lyon</option>
+            <option value="paris">Lille</option>
+            <option value="paris">Bordeau</option>
+            <option value="paris">Nice</option>
+          </select>
+        </div>
+        <div class="col">
+          <select class="form-control form-control-lg">
+            <option hidden>Durée du séjour</option>
+            <option value="1w">1 semaine</option>
+            <option value="2w">2 semaines</option>
+          </select>
+        </div>
+        <div class="col">
+          <input type="button" class="btn btn-lg btn-success" value="Rechercher">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        {% for continent in continents %}
+          <div class="col-md-4">
+            <div class="card card-continent mb-4 shadow-sm" style="background-color: {{ continent.color }};">
+              <div class="card-body">
+                <h3>{{ continent.name }}</h3>
+                <ul>
+                  {% for destination in continent.destinations %}
+                    <li>
+                      {{ destination.name }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</main>
+{% endblock %}
